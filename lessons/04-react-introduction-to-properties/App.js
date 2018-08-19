@@ -1,8 +1,7 @@
 // https://jsbin.com/yirifo/edit?html,js,output
 
 import React from 'react';
-import ReactDOM from 'react-dom';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 class App extends React.Component {
   render(){
@@ -10,14 +9,14 @@ class App extends React.Component {
     return <h1>{txt}</h1>
   }
 }
+
 App.propTypes = {
   txt: PropTypes.string,
   cat: PropTypes.number.isRequired
 }
-App.defaultProps ={
-  txt: 'this is the default txt'
+
+App.defaultProps = {
+  txt: "this is the default text"
 }
-ReactDOM.render(
-  <App cat={5} />,
-  document.getElementById('app')
-);
+
+export default App
