@@ -8,13 +8,13 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "babel-core": "^6.2.1",
-        "babel-loader": "^6.2.0",
-        "babel-preset-es2015": "^6.1.18",
-        "babel-preset-react": "^6.1.18",
-        "react": "^0.14.3",
-        "react-dom": "^0.14.3",
-        "prop-types": "^15.6.0"
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "prop-types": "^15.6.2"
     },
     "description": "Setup files for React in ES6 lessons"
 }
