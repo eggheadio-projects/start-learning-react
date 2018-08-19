@@ -1,5 +1,7 @@
 // https://jsbin.com/qubonu/1/edit?js,output
+
 import React from 'react';
+
 class App extends React.Component {
   constructor(){
     super();
@@ -14,16 +16,16 @@ class App extends React.Component {
     this.setState({filter: e.target.value})
   }
   render(){
-    let items = this.state.items;
+    let items = this.state.items
     if(this.state.filter){
       items = items.filter( item =>
-        item.name.toLowerCase()
-        .includes(this.state.filter.toLowerCase()))
+      item.name.toLowerCase()
+      .includes(this.state.filter.toLowerCase()))
     }
     return (
       <div>
         <input type="text"
-        onChange={this.filter.bind(this)}/>
+          onChange={this.filter.bind(this)}/>
         {items.map(item =>
           <Person key={item.name} person={item} />)}
       </div>

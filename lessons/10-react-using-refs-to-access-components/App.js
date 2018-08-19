@@ -5,7 +5,7 @@ import React from 'react';
 class App extends React.Component {
   constructor(){
     super();
-    this.state = {a: '', b: ''}
+    this.state = {a: ''}
   }
   update(){
     this.setState({
@@ -25,7 +25,7 @@ class App extends React.Component {
           ref="b"
           type="text"
           onChange={this.update.bind(this)}
-          /> {this.state.b}
+        /> {this.state.b}
       </div>
     )
   }
