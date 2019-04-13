@@ -1,5 +1,10 @@
-import React from 'react';
+import React from "react";
+import NameForm from "./NameForm";
 
-const App = () => <h1>Hi</h1>
+const App = () => (
+  <div>
+    <NameForm />
+  </div>
+);
 
-export default App
+export default App;
